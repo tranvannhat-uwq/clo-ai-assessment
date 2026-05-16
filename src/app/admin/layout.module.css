@@ -1,0 +1,76 @@
+.adminLayout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background-color: #0f172a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: #38bdf8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.nav a {
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  color: #cbd5e1;
+  transition: all 0.2s;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav a:hover {
+  background-color: #1e293b;
+  color: white;
+  transform: translateX(4px);
+}
+
+.logoutForm {
+  margin-top: auto;
+}
+
+.logoutForm button {
+  width: 100%;
+  padding: 0.85rem;
+  background-color: transparent;
+  color: #f87171;
+  border: 1px solid #7f1d1d;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.logoutForm button:hover {
+  background-color: #ef4444;
+  color: white;
+  border-color: #ef4444;
+}
+
+.mainContent {
+  flex: 1;
+  background-color: #f8fafc;
+  padding: 2.5rem;
+  overflow-y: auto;
+  max-height: 100vh;
+}
